@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1074431259313662577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1075645249350087798}
+  m_Layer: 0
+  m_Name: rightEdge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1075645249350087798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074431259313662577}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.56, y: -2.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6743055055351523250}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6692962633401422086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6743055055351523250}
+  m_Layer: 0
+  m_Name: GolemPatrol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6743055055351523250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692962633401422086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.79, y: 3.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8173602867059631873}
+  - {fileID: 6782232184509664713}
+  - {fileID: 1075645249350087798}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7458132686714465345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6782232184509664713}
+  m_Layer: 0
+  m_Name: leftEdge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6782232184509664713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7458132686714465345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.63, y: -2.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6743055055351523250}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8708707589307679457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6743055055351523250}
+    m_Modifications:
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255585174985567590, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      propertyPath: m_Name
+      value: RockGolem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1255585174985567590, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6641888389923245475}
+  m_SourcePrefab: {fileID: 100100000, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+--- !u!95 &2467878375218440351 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6549396213361126014, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+  m_PrefabInstance: {fileID: 8708707589307679457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7617618288040488839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255585174985567590, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+  m_PrefabInstance: {fileID: 8708707589307679457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6641888389923245475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617618288040488839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4dda29efa27767439a5bec47e9c98c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GolemPatrol
+  leftEdge: {fileID: 6782232184509664713}
+  rightEdge: {fileID: 1075645249350087798}
+  moveSpeed: 2
+  idleDuration: 2
+  anim: {fileID: 2467878375218440351}
+--- !u!4 &8173602867059631873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 699733503127512544, guid: 9cdca077a5621c849a0282c2b709ded9, type: 3}
+  m_PrefabInstance: {fileID: 8708707589307679457}
+  m_PrefabAsset: {fileID: 0}
